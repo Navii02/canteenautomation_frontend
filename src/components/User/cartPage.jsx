@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { ShoppingCart, Plus, Minus, Trash } from "lucide-react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./CartPage.css";
+import "./cartPage.css";
 import Dashboard from "./Dashboard";
 import { url } from "../../service/serviceurl";
 const CartPage = () => {
