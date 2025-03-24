@@ -167,7 +167,7 @@ const MenuManagement = () => {
               {menuItems.map((item) => (
                 <div key={item._id} className="col-md-4 mb-3">
                   <div className="card">
-                    {item.image && <img src={`${API_URL}${item.image}`} className="card-img-top" alt={item.name} />}
+                    {item.image && <img src={`${url}${item.image}`} className="card-img-top" alt={item.name} />}
                     <div className="card-body text-center">
                       <h5 className="card-title">{item.name}</h5>
                       <p className="card-text">{item.description}</p>
