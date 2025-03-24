@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
-impor//t "./Profile.css";
+//import "./Profile.css";
 import Dashboard from "./Dashboard";
 import { url } from "../../service/serviceurl";
 const Profile = () => {
