@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./home.css"; // Import Home CSS
+import "./Home.css"; // Import Home CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 import "animate.css";
 
