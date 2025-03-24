@@ -1,0 +1,66 @@
+/* Full Page Background */
+.dashboard {
+    background: url("../../assets/homepage.jpg") no-repeat center center/cover;
+    height: 100vh; /* Restrict to full viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container for Dashboard Home */
+.dashboard-home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure full viewport height */
+    width: 100%;
+    padding: 20px;
+}
+
+/* Welcome Section */
+.dashboard-welcome {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.dashboard-welcome:hover {
+    transform: scale(1.03);
+}
+
+/* Title */
+.welcome-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Description Text */
+.welcome-text {
+    font-size: 1.2rem;
+    color: #f1f1f1;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .dashboard-welcome {
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    .welcome-title {
+        font-size: 2rem;
+    }
+
+    .welcome-text {
+        font-size: 1rem;
+    }
+}

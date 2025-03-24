@@ -1,0 +1,166 @@
+/* AdminSeatingManagement.module.css */
+
+/* Main Container */
+.adminSeatingContainer {
+  display: flex;
+  min-height: 100vh;
+  background: #eef2f7;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Sidebar Styling */
+
+
+/* Main Content */
+.mainContent {
+  padding: 40px;
+  margin-left: 150px;
+  flex: 1;
+}
+
+/* Page Title */
+.adminSeatingTitle {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Seating Box */
+.seatingBox {
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Seating Layout - Display 3 Tables per Row */
+.seatingLayout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/* Table Box */
+.tableBox {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-width: 230px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tableBox:hover {
+  transform: translateY(-5px);
+}
+
+.tableBox p {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+/* Seats Container */
+.seats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* Seat Styling */
+.seat {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Seat Status Colors */
+.available {
+  background: #28a745; /* Green */
+  color: white;
+}
+
+.selected {
+  background: #dc3545; /* Red */
+  color: white;
+}
+
+.occupied {
+  background: #f4a230; /* Gray */
+  color: white;
+  cursor: not-allowed;
+}
+
+/* Hover Effects */
+.seat:hover {
+  transform: scale(1.1);
+}
+
+/* Legend */
+.legend {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.legendBox {
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+}
+
+.legendAvailable {
+  background: #28a745;
+}
+
+.legendSelected {
+  background: #dc3545;
+}
+
+.legendOccupied {
+  background: #6c757d;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .seatingLayout {
+    grid-template-columns: repeat(2, 1fr); /* 2 Tables per row for smaller screens */
+  }
+
+  .seat {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .seatingLayout {
+    grid-template-columns: repeat(1, 1fr); /* 1 Table per row for mobile */
+  }
+}

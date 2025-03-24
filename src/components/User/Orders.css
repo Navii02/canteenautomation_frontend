@@ -1,0 +1,60 @@
+.order-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+  }
+  
+  .order-item:last-child {
+    border-bottom: none;
+  }
+  
+  .order-item p {
+    margin: 5px 0;
+  }
+  
+  .order-item ul {
+    padding-left: 20px;
+    margin: 5px 0;
+  }
+  
+  .order-item ul li {
+    list-style: disc;
+  }
+  
+  /* Status Highlighting */
+  .status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  .preparing {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .completed {
+    background-color: green;
+    color: white;
+  }
+  
+  .cancelled {
+    background-color: red;
+    color: white;
+  }
+  

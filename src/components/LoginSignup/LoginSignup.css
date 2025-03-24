@@ -1,0 +1,59 @@
+/* Background image & full-page styling */
+.login-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../assets/loginpage.jpg") no-repeat center center/cover;
+  backdrop-filter: blur(10px);
+}
+
+/* Glassmorphism effect for login card */
+.login-card {
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+}
+
+/* Input group styling */
+.input-group-text {
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #495057;
+}
+
+/* Alert messages */
+.alert {
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-align: left;
+}

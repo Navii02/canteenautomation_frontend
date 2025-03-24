@@ -1,0 +1,123 @@
+/* PaymentPage.css */
+.payment-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #676772, #a1a1b5);
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+}
+
+.payment-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.payment-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.payment-btn {
+    background: #e4e4e4;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: #333;
+}
+
+.payment-btn:hover {
+    background: #d6d6d6;
+}
+
+.payment-btn.selected {
+    background: #ff9f1c;
+    color: #fff;
+}
+
+.proceed-btn {
+    margin-top: 20px;
+    background: #ff9f1c;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+.proceed-btn:hover {
+    background: #ffbf47;
+}
+
+.proceed-btn:disabled {
+    background: #ccc;
+    color: #777;
+    cursor: not-allowed;
+}
+
+.payment-timer {
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+}
+
+.payment-done-btn {
+    margin-top: 10px;
+    background: #28a745;
+    border: none;
+    padding: 10px 18px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.payment-done-btn:hover {
+    background: #218838;
+}
+
+.home-btn {
+    margin-top: 20px;
+    background: none;
+    border: 1px solid #ff9f1c;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ff9f1c;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+.home-btn:hover {
+    background: #ff9f1c;
+    color: #fff;
+}

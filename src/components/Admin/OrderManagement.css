@@ -1,0 +1,102 @@
+/* Order Management Page Styling */
+.order-management {
+    background-color: #f8f9fa;
+    padding: 10px;
+  }
+  
+  .order-heading {
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  /* Custom Table Styling */
+  .custom-table {
+    border-collapse: collapse;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 30px;
+
+  }
+  
+  .custom-table th {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 12px;
+  }
+  
+  .custom-table td {
+    text-align: center;
+    padding: 10px;
+    vertical-align: middle;
+  }
+  
+  /* Hover Effect */
+  .custom-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Token Cell Styling */
+  .token-cell {
+    font-weight: bold;
+    color: #ff6f61;
+    font-size: 1.2rem;
+  }
+  
+  /* Order List Styling */
+  .order-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .order-list li {
+    padding: 2px 0;
+    font-size: 14px;
+  }
+  
+  /* Payment Mode Styling */
+  .payment-mode {
+    font-weight: bold;
+    color: #17a2b8;
+  }
+  
+  /* No Seats Styling */
+  .no-seats {
+    color: #dc3545;
+    font-weight: bold;
+  }
+  
+  /* Takeaway Status */
+  .takeaway-status {
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  /* Status Dropdown Styling */
+  .status-dropdown {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Color-coded statuses */
+  .status-pending {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .status-preparing {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .status-completed {
+    background-color: #28a745;
+    color: white;
+  }
+  
